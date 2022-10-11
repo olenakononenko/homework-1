@@ -16,9 +16,6 @@ body{
     color:#2196F3;
 
 }
-.main-btn:hover {
-
-}
 
 /*HEDER*/
 .firt-part{
@@ -83,10 +80,9 @@ body{
  color:#FFFFFF;
  background-color: #2F303A;
 }
-
 .btn:hover, .btn:focus{
     color:#FFFFFF;
-    background-color: #2196F3; ;
+    background-color: #2196F3;
 }
 
 .main-btn{
@@ -111,7 +107,9 @@ body{
     clip: rect(0000);
     overflow: hidden;
 }
+.main-btn:hover {
 
+}
 
 .hero-head-item {
    font-weight: 700;
@@ -184,30 +182,5 @@ color: #757575;
  letter-spacing: 0.03em;
  color:rgba(255, 255, 255, 0.6);
 }
+ 
 
-.main-btn-second{
-    font-weight: 700;
- font-size: 16px;
- line-height:calc(30/16);
- display: flex;
- align-items: center;
- text-align: center;
- letter-spacing: 0.06em;
- color: #000000;
-}
-
-.prodj-soft-type{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: calc(36/18);
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.prodj-soft-name{
- font-weight: 400;
- font-size: 16px;
- line-height: 30px;
- letter-spacing: 0.03em;
- color: #757575;
-}
